@@ -135,3 +135,10 @@ pred4
 tabl2 = table(pred4,testing[,10]) 
 confusionMatrix(tabl2)
 precision(tabl2)
+
+### So after modelling both the models, I come up with a conclusion that in my model; Decision Tree was performing pretty good as compared to Logistic Regression.
+#   I got 82% precision for Decision Tree and 72% for Logistic Regression.
+#   This is a 10% improvement in the prediction for Precision.
+#   As Decision Tree was more interpretable. And for this type of data , we need to be very much accurate about the model ; as it can risk to person’s life.
+#   The study investigates the application of various algorithms to predict the heart attacks and to compare the best method of prediction.
+#   The results do not presents a dramatic difference in the prediction when using different classification algorithms like CART, Logistic Regression.
